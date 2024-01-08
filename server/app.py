@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h> Python Operations with Flask Routing and Views </h1>"
+    return "<h1>Python Operations with Flask Routing and Views</h1>"
 
 @app.route('/print/<string:route>')
 def print_string(route):
